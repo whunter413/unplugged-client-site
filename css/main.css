@@ -252,7 +252,7 @@ aside {
 }
 
 /*------------------ FAQ PAGE STYLES --------------------*/
-.faq-section {
+.faq {
   margin: 50px 0 0 0;
   display: flex;
   justify-content: center;
@@ -268,7 +268,7 @@ aside {
   margin-bottom: 40px;
 }
 
-.faq-section .content-wrapper {
+.faq .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -463,8 +463,46 @@ aside {
            justify-content: center;
        }
 
-       div .footer
-   }
+       /* About Page Styles */
+    
+       .mission-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px
+      }
+    
+      .mission-content p {
+        width: 45%;
+      }
+ 
+      .contact-section .content-wrapper h2 {
+        width: 80%;
+      }
+ 
+      .contact-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+
+
+      /* FAQ page styles */
+      .faq .content-wrapper {
+        justify-content: space-between;
+    }
+    
+    .faq-content {
+        flex-basis: 40%;
+    }
+ 
+    .faq h2 {
+        width: 100%;
+    }
+
+
+    }
+
 
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
