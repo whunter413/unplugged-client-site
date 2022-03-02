@@ -426,25 +426,25 @@ aside {
     
        .features-items {
          display: flex;
-         flex-flow: row wrap
+         flex-flow: row wrap;
          justify-content: center;
          align-items: center;
        }
 
 
-       /* Reviews */
-       .reviews article {
-        display: flex;
-        justify-content: space-between;
-      }
-    
-      .reviews article div {
-        width: 49%;
-      }
+        /* Reviews */
+        .reviews article {
+          display: flex;
+          justify-content: space-between;
+          }
+      
+        .reviews article div {
+          width: 49%;
+        }
     
        /* Footer */
        footer .content-wrapper {
-           width: 90%
+           width: 90%;
            margin: 100px 0;
        }
        
@@ -470,35 +470,35 @@ aside {
         justify-content: space-between;
         align-items: center;
         padding-top: 20px
-      }
+        }
     
-      .mission-content p {
-        width: 45%;
-      }
+        .mission-content p {
+          width: 45%;
+        }
  
-      .contact-section .content-wrapper h2 {
-        width: 80%;
-      }
+        .contact-section .content-wrapper h2 {
+          width: 80%;
+        }
  
-      .contact-content {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-      }
+        .contact-content {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+        }
 
 
       /* FAQ page styles */
       .faq .content-wrapper {
         justify-content: space-between;
-    }
-    
-    .faq-content {
-        flex-basis: 40%;
-    }
- 
-    .faq h2 {
-        width: 100%;
-    }
+      }
+      
+      .faq-content {
+          flex-basis: 40%;
+      }
+  
+      .faq h2 {
+          width: 100%;
+      }
 
 
     }
@@ -506,6 +506,58 @@ aside {
 
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
+
+    /* General styles */
+    .content-wrapper {
+        max-width: 960px;
+    }
+
+    /*Hero area styles */
+    .hero-area h1 {
+      width: 50%;
+    }
+
+    /* Aside styles */
+
+    aside .content-wrapper {
+      justify-content: space-around;
+    }
+    
+    aside .content-wrapper .form-description,
+    aside .content-wrapper .form {
+        width: 30%
+    }
+
+    /* Features */
+    .features h2 {
+      width: 80%
+  }
+
+  .features article {
+      flex-basis: 33%;
+  }
+
+  /* Reviews */ 
+  .reviews article div {
+      width: 42%;
+  }
+
+  /* About page styles */
+   .mission h2,
+   .contact-section .content-wrapper h2 {
+       width: 95% ;
+   }
+
+
+  /* FAQ page styles */
+ 
+   .faq h2 {
+       width: 100%;
+   }
+
+}
+
+
 }
 
 @media print,
