@@ -87,6 +87,68 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/******* GENERAL STYLES *****************/
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+
+ul,
+ol {
+  font-size: 1.125em;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: #e2e3ed;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
+
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125em;
+  margin: 20px;
+}
+
+p {
+  font-size: .875em;
+  line-height: 1.5em;
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+  font-style: normal;
+}
+
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
+
+
+
+
 /*-------------- HEADER -- FOOTER STYLES ------------*/
 header,
 footer {
@@ -554,9 +616,6 @@ aside {
    .faq h2 {
        width: 100%;
    }
-
-}
-
 
 }
 
