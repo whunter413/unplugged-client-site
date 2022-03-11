@@ -686,6 +686,22 @@ input[type=button] {
           font-size: 1.5em;
         }
 
+        .map figure {
+          height: 0;
+          overflow: hidden;
+          padding-bottom: 125%;
+          position: relative;
+          width: 100%;
+        }
+
+        .map figure iframe {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          left: 0;
+          top: 0;
+        }
+
       /* FAQ page styles */
       .faq .content-wrapper {
         justify-content: space-between;
