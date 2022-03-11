@@ -255,6 +255,10 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 50%;
+  background-color: #527158;
+  width: 30px;
+  height: 30px;
 }
 
 /*------------------- Mobile Styles - Homepage -----------------*/
