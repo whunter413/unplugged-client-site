@@ -180,6 +180,7 @@ header .content-wrapper{
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+  width: 100%;
 }
 
 
@@ -196,7 +197,7 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  width: 60%;
+  width: 65%;
   font-size: 1.125em;
   text-transform: capitalize;
   font-weight: 700;
@@ -289,6 +290,10 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+aside .content-wrapper {
+  margin: 10px 0 50px 0;
 }
 
 aside .form-description {
@@ -394,6 +399,14 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.mission h2 {
+  margin: 14px 0 20px 0;
+}
+
+.contact-section h2 {
+  margin: 14px 0 20px 0;
+}
+
 .contact-section{
   background: #2a423a;
   display: flex;
@@ -402,9 +415,22 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+/* Map styles */
 
-.contact-content p {
-  margin: 0;
+.map figure {
+  width: 100%;
+  height: 0; 
+  padding-bottom: 125%; 
+  overflow: hidden;
+  position: relative;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
 }
 
 /*------------------ FAQ PAGE STYLES --------------------*/
@@ -527,8 +553,8 @@ input[type=button] {
    @media only screen and (min-width: 768px) {
        /* General styles */
        .content-wrapper {
-           max-width: 640px;
-           margin: 100px 0;
+          max-width: 640px;
+          margin: 100px 0;
        }
 
        h2 {
@@ -537,18 +563,18 @@ input[type=button] {
       }
     
       h3 {
-          font-size: 1.5em;
-          line-height: 1.25;
+        font-size: 1.5em;
+        line-height: 1.25;
       }
     
-       /* Header */
+      /* Header */
     
-       header {
-          justify-content: space-around ;
-          padding: 33px 0;
-       }
+      header {
+        justify-content: space-around ;
+        padding: 33px 0;
+      }
     
-       header .content-wrapper {
+       header div.content-wrapper{
            width: 100%;
            justify-content: space-between ;
        }
@@ -558,7 +584,7 @@ input[type=button] {
        }
     
        header nav {
-           width: 20%
+           width: 25%
        }
     
        header nav ul {
@@ -580,11 +606,11 @@ input[type=button] {
         font-size: 3em;
         line-height: 1;
         margin: 0;
-    }
+      }
 
-       /* Aside */
+      /* Aside */
        aside .content-wrapper {
-           margin: 50px 0;
+           margin: 40px 0;
            display: flex;
            justify-content: space-between;
            flex-flow:row wrap ;
@@ -637,6 +663,10 @@ input[type=button] {
           width: 85%;
         }
 
+        .reviews .reviews-text {
+          padding-left: 20px;
+        }
+
        /* Footer */
        footer .content-wrapper {
            width: 65%;
@@ -646,7 +676,6 @@ input[type=button] {
        .footer-content {
             display: flex;
             justify-content: space-between;
-            align-items:center ;
        }
     
        footer .contact {
@@ -665,6 +694,10 @@ input[type=button] {
        footer .copyright {
            width: 100%;
            justify-content: center;
+       }
+
+       footer .social {
+          width: 40%;
        }
 
        /* About Page Styles */
@@ -692,6 +725,10 @@ input[type=button] {
 
         .contact-content h4 {
           font-size: 1.5em;
+        }
+
+        .map figure {
+          padding-bottom: 45.5%;
         }
 
       /* FAQ page styles */
@@ -795,6 +832,10 @@ input[type=button] {
 
   .contact-content h4 {
     font-size: 1.875em;
+  }
+
+  .map figure {
+    padding-bottom: 37.5%;
   }
 
   /* FAQ page styles */
